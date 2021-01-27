@@ -151,7 +151,7 @@ training_model = Model([encoder_inputs, decoder_inputs], decoder_outputs)
 from keras.models import load_model
 training_model = Model([encoder_inputs, decoder_inputs], decoder_outputs)
 #training_model.load_weights(model_dict + 'training_model Test.h5')# Cambiar path 
-training_model.load_weights('Models\training_model Test.h5')
+training_model.load_weights('Models/training_model Test.h5')
 encoder_inputs = training_model.input[0]
 encoder_outputs, state_h_enc, state_c_enc = training_model.layers[2].output
 encoder_states = [state_h_enc, state_c_enc]
