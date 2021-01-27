@@ -44,7 +44,8 @@
 ¿Cuál es la literatura más antigua de todas las literaturas europeas y la que ha ejercido mayor influencia en la posteridad?
 ¿De qué país es el escritor latinoamericano Rubén Darío
 ¿De qué nacionalidad era el escritor Ernest Hemingway?
-¿Quién escribió la novela estadounidense Matar Un Ruiseñor? ¿Podrías nombrar a alguno de los grandes escritores que murieron sin obtener un Premio Nobel de Literatura?
+¿Quién escribió la novela estadounidense Matar Un Ruiseñor?
+¿Podrías nombrar a alguno de los grandes escritores que murieron sin obtener un Premio Nobel de Literatura?
 Qué personaje de Shakespeare murió a manos de Malcolm.
 En qué idioma escribió la mayor parte de su obra el escritor irlandés Samuel Beckett.
 Qué famoso escritor norteamericano escribió en Cuba en 1951 "El viejo y el mar".
@@ -198,4 +199,55 @@ Quisiera conocer más sobre filosofía
 Sabes quién escribió Moby Dick
 Cuéntame sobre Miguel de Cervantes 
 Sabes cuál es el libro más vendido de los últimos 50 años
+Qué premio Nobel de Literatura nació en Buenos Aires y murió en París.
+¿Cuál es la novela más traducida de Camilo José Cela?
+Quién es el autor de Rayuela.
+Qué novela de Víctor Hugo ha sido llevada al teatro musical con mucho éxito.
+Qué filósofo alemán escribió sobre la teoría del superhombre
+Qué autor noruego escribió la obra "Casa de muñecas".
+Con qué seudónimo firmó su obra el escritor chileno Neftalí Ricardo Reyes.
+¿A quiénes odiaban los Capulettos en la obra de Shakespeare?
+Cuál es la alcahueta más famosa de la literatura española.
+Nombra alguna obra de Haruki Murakami.
+¿Podrías nombrar a alguno de los grandes escritores que murieron sin obtener un Premio Nobel de Literatura?
+Qué personaje de Mary Shelley fue recreado por el protagonista de la novela.
+¿Cuál fue la primera novela de Umberto Ecco?
+Qué personaje de Shakespeare murió a manos de Malcolm
+En qué idioma escribió la mayor parte de su obra el escritor irlandés Samuel Beckett.
+Qué escritor escoces escribió la obra "La Isla del Tesoro".
+"Cuando Gregorio Samsa se despertó una mañana después de un sueño intranquilo, se encontró sobre su cama convertido en un monstruoso insecto". ¿Qué obra comienza de esta manera?
+Qué famoso escritor norteamericano escribió en Cuba en 1951 "El viejo y el mar".
+A qué escritor se atribuye el poema épico "La Odisea"
+Qué novela con nombre de mujer es la más traducida del autor Fedor Distoiewski.
+¿Es Charles Dickens el autor de todas estas obras? Oliver Twist, Cuento de Navidad y Grandes Esperanzas.
+Nombra algún autor que murió antes de saber que su obra fue un éxito.
+Qué detective fue creado por el autor Raymond Chandler.
+Quién escribió la novela histórica La reina Margot, basada en la historia de Margarita de Valoise y los acontecimientos tras la masacre de San Bartolomé en 1572.
+Con qué nombre firmó George Rémi las primeras aventuras de Tintín.
+Qué libro aparece en la Biblia entre el Génesis y el Levítico.
+¿Dónde escribió Cervantes la primera parte de El Quijote?
+¿En qué país se escribió la primera novela conocida?
+Qué héroe de cómic sube por las paredes gracias a su tela de araña.
+Cómo se llamaba el mayor conquistador de damas en la obra de Zorrilla.
+Con qué confundía Don Quijote los molinos de viento.
+Quién es el protagonista de las obras literarias inspiradas en Vlad el Empalador. 
+Qué miembro de la familia Borgia escribía poemas en varios idiomas.
+En qué ciudad vivían Romeo y Julieta.
+Cuál es el libro más antiguo de la humanidad.
+Qué autora británica escribió "Diez negritos".
+¿Cuál es el verdadero nombre de Dulcinea del Toboso (El Quijote)?
+Quién es el autor de "Seis personajes en busca de autor".
+Cuántos libros forman la saga de Harry Potter.
+Qué personaje de cómic creó Bob Kane cuando tenía 18 años. 
+Qué composición poética está formada por dos cuartetos y dos tercetos.
+Qué autor del Renacimiento escribió "El Príncipe".
+Cómo se llama el personaje femenino de "Nuestra señora de París".
+De qué nacionalidad eran los Hermanos Grimm.
+Cómo se llama la obra que escribía Mozart cuando murió.
+Qué escritor chileno escribió "Veinte poemas de amor y una canción desesperada".
+Cuál es la novela más vendida de todos los tiempos.
+De quién estaba enamorado Hamlet.
+Quién se ataba al mástil del barco para no sucumbir a los cantos de sirena.
+Cuál es la novela más famosa de Jane Austin.
+Cuál es el nombre tras el que se esconde Superman.
 [END]
