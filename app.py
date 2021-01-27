@@ -22,7 +22,7 @@ import nltk
 from nltk.corpus import stopwords
 
 np.random.seed(seed=0)
-import tensorflow as tf
+import tensorflow-cpu as tf
 tf.random.set_seed(0)
 """
 from google.colab import drive
@@ -125,7 +125,7 @@ for line, (input_doc, target_doc) in enumerate(zip(input_docs, target_docs)):
         if timestep > 0:
             decoder_target_data[line, timestep - 1, target_features_dict[token]] = 1.
 
-from tensorflow import keras
+from tensorflow-cpu import keras
 from keras.layers import Input, LSTM, Dense
 from keras.models import Model
 #Dimensionality
