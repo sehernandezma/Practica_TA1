@@ -22,7 +22,8 @@ import unidecode
 #from nltk.corpus import stopwords
 
 #np.random.seed(seed=0)
-import tensorflow as tf
+
+#import tensorflow as tf
 #tf.random.set_seed(0)
 """
 from google.colab import drive
@@ -128,8 +129,9 @@ for line, (input_doc, target_doc) in enumerate(zip(input_docs, target_docs)):
 print('debug1',max_encoder_seq_length)
 
 from tensorflow import keras
-from keras.layers import Input, LSTM, Dense
-from keras.models import Model
+from tensorflow.keras.layers import Input, Dense, LSTM
+#from keras.layers import Input, LSTM, Dense
+from tensorflow.keras.models import Model
 #Dimensionality
 dimensionality = 256
 #The batch size and number of epochs
