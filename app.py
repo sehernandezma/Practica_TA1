@@ -14,11 +14,11 @@ Limpa el Corpus
 import numpy as np
 #import pandas as pd
 #from matplotlib import pyplot as plt
-import matplotlib.pyplot as plt
-from pathlib import Path
-import string
+#import matplotlib.pyplot as plt
+#from pathlib import Path
+#import string
 import unidecode
-import nltk
+#import nltk
 #from nltk.corpus import stopwords
 
 np.random.seed(seed=0)

@@ -6,6 +6,7 @@ click==6.6
 gunicorn==19.6.0
 itsdangerous==0.24
 requests==2.21.0
+wheel==0.36.2
 tensorflow-cpu==2.4.1
 Unidecode==1.1.2
 numpy==1.19.5
