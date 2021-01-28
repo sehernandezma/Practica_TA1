@@ -10,3 +10,4 @@ wheel==0.36.2
 tensorflow-cpu==2.4.1
 Unidecode==1.1.2
 numpy==1.19.5
+regex==2020.11.13

@@ -21,9 +21,9 @@ import unidecode
 #import nltk
 #from nltk.corpus import stopwords
 
-np.random.seed(seed=0)
+#np.random.seed(seed=0)
 import tensorflow as tf
-tf.random.set_seed(0)
+#tf.random.set_seed(0)
 """
 from google.colab import drive
 drive.mount('/content/drive', force_remount=True)
@@ -51,7 +51,7 @@ def limpiezatexto(text):
   return text
 
 import re
-import random
+#import random
 #with open(path/'preguntas_Literatura.txt',mode='r',encoding='utf-8') as f:
 with open('preguntas_Literatura.txt',mode='r',encoding='utf-8') as f:
   lines=f.read().split('\n')
