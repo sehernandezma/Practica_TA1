@@ -16,7 +16,7 @@ import numpy as np
 #from matplotlib import pyplot as plt
 #import matplotlib.pyplot as plt
 #from pathlib import Path
-import strings
+#from strings import string
 import unidecode
 #import nltk
 #from nltk.corpus import stopwords
@@ -44,7 +44,7 @@ print('debug0')
 def limpiezatexto(text):
   text = text.replace('-',' ')
   text = text.replace('/',' ')
-  text = text.translate(str.maketrans('', '', strings.punctuation))
+  #text = text.translate(str.maketrans('', '', string.punctuation))
   text = text.lower()
   text = ' '.join([word for word in text.split() if word not in stop_words])
   text = unidecode.unidecode(text)
