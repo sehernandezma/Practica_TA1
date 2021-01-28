@@ -152,7 +152,7 @@ decoder_outputs = decoder_dense(decoder_outputs)
 #Model
 training_model = Model([encoder_inputs, decoder_inputs], decoder_outputs)
 
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 training_model = Model([encoder_inputs, decoder_inputs], decoder_outputs)
 #training_model.load_weights(model_dict + 'training_model Test.h5')# Cambiar path 
 training_model.load_weights('Models/training_model Test.h5')
