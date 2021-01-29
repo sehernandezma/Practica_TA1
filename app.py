@@ -47,8 +47,9 @@ def limpiezatexto(text):
   text = text.replace('/',' ')
   #text = text.translate(str.maketrans('', '', string.punctuation))
   text = text.lower()
-  text = ' '.join([word for word in text.split() if word not in stop_words])
   text = unidecode.unidecode(text)
+  text = ' '.join([word for word in text.split() if word not in stop_words])
+  
   return text
 
 import re
