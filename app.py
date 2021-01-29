@@ -47,8 +47,9 @@ def limpiezatexto(text):
   text = text.replace('/',' ')
   #text = text.translate(str.maketrans('', '', string.punctuation))
   text = text.lower()
-  text = ' '.join([word for word in text.split() if word not in stop_words])
   text = unidecode.unidecode(text)
+  text = ' '.join([word for word in text.split() if word not in stop_words])
+  
   return text
 
 import re
@@ -287,8 +288,14 @@ def webhook():
                     recipient_id = messaging_event['recipient']['id']  # el facebook ID de la pagina que recibe (tu pagina)
                     message_text = messaging_event['message']['text']  # el texto del mensaje
 
+                    
+
 ## Parte modificada
-                    respuesta = ChatBot().generate_response(message_text)
+
+                    entrada = [" ".join(re.findall(r"\w+",message_text))]
+                    salidapreprocesada = " ".join(list(map(limpiezatexto, entrada)))
+
+                    respuesta = ChatBot().generate_response(salidapreprocesada)
 
                     send_message(sender_id, respuesta)
 ## Fin parte modificada
