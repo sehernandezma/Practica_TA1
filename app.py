@@ -289,7 +289,10 @@ def webhook():
                     message_text = messaging_event['message']['text']  # el texto del mensaje
 
 ## Parte modificada
-                    respuesta = ChatBot().generate_response(message_text)
+                    entrada = [" ".join(re.findall(r"\w+",message_text))]
+                    salidapreprocesada = " ".join(list(map(limpiezatexto, entrada))
+
+                    respuesta = ChatBot().generate_response(salidapreprocesada)
 
                     send_message(sender_id, respuesta)
 ## Fin parte modificada
