@@ -136,8 +136,8 @@ from tensorflow.keras.models import Model
 #Dimensionality
 dimensionality = 256
 #The batch size and number of epochs
-batch_size = 5
-epochs = 300
+batch_size = 20
+epochs = 1200
 #Encoder
 encoder_inputs = Input(shape=(None, num_encoder_tokens))
 encoder_lstm = LSTM(dimensionality, return_state=True)
@@ -201,7 +201,7 @@ def decode_response(test_input):
   return decoded_sentence
 
 class ChatBot:
-  negative_responses = ("no", "nope", "nah", "naw", "not a chance", "sorry")
+  negative_responses = ("no", "nope", "nah", "naw", "not a chance", "perdon")
   exit_commands = ("quit", "pause", "exit", "goodbye", "bye", "later", "stop", "salir", "pausar", "chao", "detener", "hasta luego")
 #Method to start the conversation
   def start_chat(self):
