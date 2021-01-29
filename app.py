@@ -291,11 +291,11 @@ def webhook():
                     
 
 ## Parte modificada
-                    print('DDebug')
+                    """print('DDebug')
                     entrada = [" ".join(re.findall(r"\w+",message_text))]
-                    salidapreprocesada = " ".join(list(map(limpiezatexto, entrada)))
+                    salidapreprocesada = " ".join(list(map(limpiezatexto, entrada)))"""
 
-                    respuesta = ChatBot().generate_response(salidapreprocesada)
+                    respuesta = ChatBot().generate_response(message_text)
 
                     send_message(sender_id, respuesta)
 ## Fin parte modificada
